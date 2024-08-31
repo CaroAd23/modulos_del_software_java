@@ -20,7 +20,11 @@ public class Usuarios {
     private Cuentas cuenta;
   private RegistroInicios nuevoInicio;
     
-    /*metodo constructor de la clase:*/
+    /*metodos constructores de la clase:*/
+  
+  public Usuarios(){
+  
+  }
     public Usuarios( String nombre, String apellidos, String correo, String contraseña){
         this.nombre=nombre;
         this.apellidos=apellidos;
